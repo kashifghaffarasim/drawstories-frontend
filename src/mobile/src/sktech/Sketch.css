@@ -1,0 +1,11 @@
+
+.mb-box{
+    border: 1px solid #ddd;
+    padding: 0px;
+    height: 300px !important;
+ }
+
+ .mb-box-list{
+   width: 100%;
+   height: 100%;
+}

@@ -1,0 +1,24 @@
+.mb-foot{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 16px;
+    background: black;
+    color: #fff;
+    border-top: 1px solid red ;
+}
+
+
+.box1{
+    margin: 55px 50px;
+}
+
+.outlineColor{
+    padding: 15px !important;
+}
+
+.linkborder{
+    padding: 12px 64px !important;
+    border: 1px solid rgb(34, 121, 250);
+    border-radius: 5px;
+}

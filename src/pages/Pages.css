@@ -1,0 +1,25 @@
+.btm-border{
+  border-bottom: 2px solid  #ddd;
+}
+.ht{
+  line-height: 0.5;
+  margin-top: 15px;
+}
+
+.bg-cont{
+  background: #ececece3;
+  margin-top: 20px;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+
+.img-up{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  max-height: 250px;
+  object-fit: cover;
+  margin-top: 20px;
+}

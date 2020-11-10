@@ -1,0 +1,9 @@
+.half{
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.half-right{
+    margin-right: 5px;
+    border-radius: 10px;
+}

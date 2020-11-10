@@ -1,0 +1,1 @@
+export default URL = "https://sketch-story.herokuapp.com/api/"

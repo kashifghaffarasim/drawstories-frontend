@@ -1,0 +1,26 @@
+
+.listmargin{
+    margin-top: 40px;
+    border-bottom: 3px solid #e60505;
+    padding-bottom: 20px;
+    height: 500px;
+}
+
+.white{
+    font-size: 18px !important;
+}
+
+.btnbottom{
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.7);
+    background: #dadada8a;
+}
+
+.navbar-light .navbar-nav .nav-link{
+   
+}
