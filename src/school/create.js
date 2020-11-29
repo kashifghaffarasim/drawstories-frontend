@@ -62,9 +62,6 @@ class CreateSchool extends React.Component  {
         let url = URL + 'v1/schools';
 
         let opts = {school: svar}
-            console.log('updated')
-                    console.log(opts)
-                    console.log('ssssssssssssssssssssssss')
          const requestOptions = {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
@@ -95,7 +92,7 @@ class CreateSchool extends React.Component  {
                             {this._renderPopUP()}
                             <div style={{ padding: 10, margin: 20, background: "rgb(245 245 245)", width: '100%', borderRadius: 10, border: 1, borderColor: '#ccc'}}>  
                                 <div className="col-md-12 text-center" style={{ padding: 20}}>
-                                    <h2> Instant Registration of School</h2>
+                                    <h2> Instant Registration of School (Copy)</h2>
                                 </div>
                                 
                                 <form style={{ padding: 30}} onSubmit={this.handleSubmit}> 
