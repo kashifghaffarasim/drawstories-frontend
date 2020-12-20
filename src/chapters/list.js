@@ -56,7 +56,7 @@ class Chapter extends React.Component  {
     _onPress = async(id, index, name) => {
 
             if(this.state.chappters[index]){
-                let files = this.state.chappters[index].files
+                let files = this.state.chappters[index].files;
                 let url = URL +  "/v1/sections?id=" + id;
                 // Start: Getting Sections of Contents
                 let a =  await fetch(url)
@@ -219,11 +219,11 @@ class Chapter extends React.Component  {
                     <div className="row text-center"> 
                     { this.state.files.map( (file, index) => {
                              let media =  null
-                             //slet path = './../assets/' + file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name;
-
                             try {
                                 
-                                media =   require('./../assets/' + file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name)
+                                media =   require('./../../../drawstories_files/' + file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name)
+                                console.log(media)
+                                console.log('media file path')
                             } catch(err){
                                 
                             }
