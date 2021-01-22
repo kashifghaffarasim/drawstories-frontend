@@ -220,21 +220,13 @@ class Chapter extends React.Component  {
                     { this.state.files.map( (file, index) => {
                              let media =  null
                             try {
-                                
-<<<<<<< HEAD
-                                media =   require('./../../../drawstories_files/' + file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name)
-                                console.log(media)
-                                console.log('media file path')
-=======
                                     if (process.env.NODE_ENV !== 'production') {
                                         media =   require('/home/kk/projects/React/websites/drawstories_files/' + file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name)
                                         console.log('development')
                                     } else if(process.env.NODE_ENV == 'production'){
                                         console.log('production')
                                     }
-
                                
->>>>>>> eb2008966bd6db688f6c7b5b28a84fda9f2232de
                             } catch(err){
                                 
                             }
