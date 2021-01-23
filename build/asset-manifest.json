@@ -1,21 +1,6 @@
 {
   "files": {
     "main.css": "/static/css/main.a70f581f.chunk.css",
-<<<<<<< HEAD
-    "main.js": "/static/js/main.6db0a5f4.chunk.js",
-    "main.js.map": "/static/js/main.6db0a5f4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a223d247.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a223d247.js.map",
-    "static/css/2.ac28a565.chunk.css": "/static/css/2.ac28a565.chunk.css",
-    "static/js/2.42ec7c01.chunk.js": "/static/js/2.42ec7c01.chunk.js",
-    "static/js/2.42ec7c01.chunk.js.map": "/static/js/2.42ec7c01.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.06a7a7dbc90e6e110f93df71679ea22c.js": "/precache-manifest.06a7a7dbc90e6e110f93df71679ea22c.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.ac28a565.chunk.css.map": "/static/css/2.ac28a565.chunk.css.map",
-    "static/css/main.a70f581f.chunk.css.map": "/static/css/main.a70f581f.chunk.css.map",
-    "static/js/2.42ec7c01.chunk.js.LICENSE.txt": "/static/js/2.42ec7c01.chunk.js.LICENSE.txt",
-=======
     "main.js": "/static/js/main.607a832a.chunk.js",
     "main.js.map": "/static/js/main.607a832a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a223d247.js",
@@ -29,55 +14,17 @@
     "static/css/2.ac28a565.chunk.css.map": "/static/css/2.ac28a565.chunk.css.map",
     "static/css/main.a70f581f.chunk.css.map": "/static/css/main.a70f581f.chunk.css.map",
     "static/js/2.36b80fce.chunk.js.LICENSE.txt": "/static/js/2.36b80fce.chunk.js.LICENSE.txt",
->>>>>>> eb2008966bd6db688f6c7b5b28a84fda9f2232de
     "static/media/01.png": "/static/media/01.cba059d3.png",
     "static/media/02.png": "/static/media/02.b38af8dd.png",
     "static/media/03.png": "/static/media/03.313f692d.png",
     "static/media/04.png": "/static/media/04.4e5e7f82.png",
     "static/media/05.png": "/static/media/05.aa539c9d.png",
-<<<<<<< HEAD
-    "static/media/README.md": "/static/media/README.db4c294c.md",
-=======
->>>>>>> eb2008966bd6db688f6c7b5b28a84fda9f2232de
     "static/media/canvas-1.jpg": "/static/media/canvas-1.b55e3096.jpg",
     "static/media/canvas-2.jpg": "/static/media/canvas-2.de121b5b.jpg",
     "static/media/canvas-3.jpg": "/static/media/canvas-3.c2c80bce.jpg",
     "static/media/canvas-4.jpg": "/static/media/canvas-4.d9b449fc.jpg",
     "static/media/canvas-5.jpg": "/static/media/canvas-5.7af167ef.jpg",
-<<<<<<< HEAD
-    "static/media/chp1.mp3": "/static/media/chp1.dcf1bee6.mp3",
-    "static/media/chp10.mp3": "/static/media/chp10.fbb81ecc.mp3",
-    "static/media/chp11.mp3": "/static/media/chp11.f8db7171.mp3",
-    "static/media/chp12.mp3": "/static/media/chp12.d1b70b8d.mp3",
-    "static/media/chp13.mp3": "/static/media/chp13.e6a32674.mp3",
-    "static/media/chp14.mp3": "/static/media/chp14.fa696e26.mp3",
-    "static/media/chp15.mp3": "/static/media/chp15.ee6bc8cf.mp3",
-    "static/media/chp16.mp3": "/static/media/chp16.e8b95aef.mp3",
-    "static/media/chp17.mp3": "/static/media/chp17.f1949008.mp3",
-    "static/media/chp18.mp3": "/static/media/chp18.e39a29fb.mp3",
-    "static/media/chp19.mp3": "/static/media/chp19.de5449c7.mp3",
-    "static/media/chp2.mp3": "/static/media/chp2.f56429d1.mp3",
-    "static/media/chp20.mp3": "/static/media/chp20.c4e2eecb.mp3",
-    "static/media/chp21.mp3": "/static/media/chp21.ea4b2cf5.mp3",
-    "static/media/chp22.mp3": "/static/media/chp22.eb4ea2e8.mp3",
-    "static/media/chp23.mp3": "/static/media/chp23.fb9de963.mp3",
-    "static/media/chp24.mp3": "/static/media/chp24.b0d61c8c.mp3",
-    "static/media/chp25.mp3": "/static/media/chp25.fc59e259.mp3",
-    "static/media/chp26.mp3": "/static/media/chp26.870aafc9.mp3",
-    "static/media/chp27.mp3": "/static/media/chp27.89f2c6cb.mp3",
-    "static/media/chp28.mp3": "/static/media/chp28.fe977998.mp3",
-    "static/media/chp3.mp3": "/static/media/chp3.faece04d.mp3",
-    "static/media/chp4.mp3": "/static/media/chp4.f43b049c.mp3",
-    "static/media/chp5.mp3": "/static/media/chp5.e7eb6644.mp3",
-    "static/media/chp6.mp3": "/static/media/chp6.ee13bf2f.mp3",
-    "static/media/chp7.mp3": "/static/media/chp7.fe5587fc.mp3",
-    "static/media/chp8.mp3": "/static/media/chp8.fe38560a.mp3",
-    "static/media/chp9.mp3": "/static/media/chp9.f95c3dbf.mp3",
     "static/media/logo-black.png": "/static/media/logo-black.6e5dc397.png",
-    "static/media/test": "/static/media/test.d41d8cd9.bin",
-=======
-    "static/media/logo-black.png": "/static/media/logo-black.6e5dc397.png",
->>>>>>> eb2008966bd6db688f6c7b5b28a84fda9f2232de
     "static/media/v1.jpeg": "/static/media/v1.2c06b990.jpeg",
     "static/media/v2.jpeg": "/static/media/v2.71edf33f.jpeg",
     "static/media/v3.jpg": "/static/media/v3.74b9ca15.jpg",
@@ -90,14 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.a223d247.js",
     "static/css/2.ac28a565.chunk.css",
-<<<<<<< HEAD
-    "static/js/2.42ec7c01.chunk.js",
-    "static/css/main.a70f581f.chunk.css",
-    "static/js/main.6db0a5f4.chunk.js"
-=======
     "static/js/2.36b80fce.chunk.js",
     "static/css/main.a70f581f.chunk.css",
     "static/js/main.607a832a.chunk.js"
->>>>>>> eb2008966bd6db688f6c7b5b28a84fda9f2232de
   ]
 }
