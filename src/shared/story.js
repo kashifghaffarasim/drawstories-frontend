@@ -1,7 +1,4 @@
 import React from 'react';
-import { withRouter} from "react-router-dom";
-import Header from './header';
-import Footer from './footer';
 import DogStroy from './dog';
 import ZoeStroy from './zoe';
 
@@ -9,26 +6,19 @@ class Story extends React.Component  {
 
   constructor(props) {
       super(props);
-    
   }
 
   _submitForReview = () => {
-    // this.props.onSubmit(this.state.textArray)
-    this.props.history.push({
-      pathname: '/school',
-    });
-
+     this.props.onSubmit(this.state.textArray)
   }
 
   render (){
     const { type } = this.props;
     return ( 
         <div>
-            <Header onSelect={(text) => this._menuSelect(text) }/>
               <div className="container top-margin">
                   {this._renderContent()}
               </div>
-            <Footer />
         </div>
        );
   }
@@ -44,7 +34,7 @@ class Story extends React.Component  {
     } else {
         return(
           <>
-            <DogStroy onSubmit={(text) => this._submitForReview(text)}/>
+            <DogStroy onSubmit={(text) => this.props.onSubmit(text)}/>
           </>
         )
       }
