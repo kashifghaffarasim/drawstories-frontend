@@ -58,6 +58,7 @@ class Header extends React.Component  {
                     <Nav.Link href="https://www.youtube.com/channel/UCd6FQ7_X5U5bpWjxDizqyxQ" className="rightBorder" target="_blank"> 
                         Online Classes
                     </Nav.Link>
+                    <Nav.Link href="/stories" className="rightBorder"> Story </Nav.Link>
                     <Nav.Link href="/demo" className="rightBorder"> Demo </Nav.Link>
                     <Nav.Link href="/register" className="rightBorder"> Register </Nav.Link>
                     <Nav.Link href="/about" className="rightBorder"> About </Nav.Link>
