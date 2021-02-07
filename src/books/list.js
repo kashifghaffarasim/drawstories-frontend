@@ -1,9 +1,10 @@
 import React from 'react';
-
 import Button from 'react-bootstrap/Button';
+
 import { withRouter} from "react-router-dom";
 import Header from './../shared/header';
 import "./Header.css";
+
 import URL from './../utils';
 
 
@@ -33,7 +34,6 @@ class Book extends React.Component  {
             this.setState({isLoading: false})
         }
         // End 
- 
     }
       
     _menuSelect = (text) => {
@@ -41,13 +41,11 @@ class Book extends React.Component  {
     }
 
     _onPress = async(id) => {
-        let path = '/school/classes/sections/book/' + id + '/chapters'
-
+        let path = '/school/classes/sections/book/' + id + '/chapters';
         this.props.history.push({
             pathname: path,
             params: {id:  id}
         });
-        
     }
 
     render (){

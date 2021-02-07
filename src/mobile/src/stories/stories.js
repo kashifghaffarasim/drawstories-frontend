@@ -8,7 +8,6 @@ import axios from 'axios';
 import Form from './form';
 
 import DogStroy from './dog/write-dog';
-// import ZoeStroy from './zoe/write-zoe';
 import ZoeStroy from './zoe/write-zoe';
 
 

@@ -1,8 +1,6 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
-import axios from 'axios';
 import { withRouter} from "react-router-dom";
-
 import Header from './../shared/header';
 
 import "./Header.css";

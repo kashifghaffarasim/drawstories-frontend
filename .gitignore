@@ -9,11 +9,6 @@
 /coverage
 
 # production
-<<<<<<< HEAD
-/build
-=======
-
->>>>>>> eb2008966bd6db688f6c7b5b28a84fda9f2232de
 
 # misc
 .DS_Store
@@ -25,8 +20,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-<<<<<<< HEAD
-=======
 yarn.lock
 package-lock.json
->>>>>>> eb2008966bd6db688f6c7b5b28a84fda9f2232de
+

@@ -25,7 +25,7 @@ class Header extends React.Component  {
                   <p className="top-text" style={{ marginBottom: 0}}>
                     <a href="http://sachdevagroup.co.in/" className="top-btn-text" target="_blank"> SCOPE </a>  
                        and 
-                    <a href="http://vrquin.com" className="top-btn-text" target="_blank" > VRQUIN LLP </a> 
+                    <a href="http://vrquin.in" className="top-btn-text" target="_blank" > VRQUIN LLP </a> 
                      presents Gitanjali.org. India's first non-profit e-learning software. 
                   </p>
                 </div>
@@ -58,6 +58,7 @@ class Header extends React.Component  {
                     <Nav.Link href="https://www.youtube.com/channel/UCd6FQ7_X5U5bpWjxDizqyxQ" className="rightBorder" target="_blank"> 
                         Online Classes
                     </Nav.Link>
+                    <Nav.Link href="/stories" className="rightBorder"> Story </Nav.Link>
                     <Nav.Link href="/demo" className="rightBorder"> Demo </Nav.Link>
                     <Nav.Link href="/register" className="rightBorder"> Register </Nav.Link>
                     <Nav.Link href="/about" className="rightBorder"> About </Nav.Link>
