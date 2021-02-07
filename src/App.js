@@ -9,6 +9,9 @@ import Book from './books/list';
 import Chapters from './chapters/list';
 import VideoDemo from './demo/video';
 import CreateSchool from './school/create';
+import Story from './shared/story';
+// import MobileStory './mobile/stories/stories';
+
 
 // pages are here 
 import ContactUs  from "./pages/contactus";
@@ -54,8 +57,6 @@ class App extends React.Component  {
                   <Route path="/school/classes/sections/book/:id/chapters" exact component={Chapters} />
                   <Route path="/demo" exact component={VideoDemo} />
                   <Route path="/register" exact component={CreateSchool} />
-
-                  // pages linking 
                   <Route path="/contact-us" exact component={ContactUs} />
                   <Route path="/about" exact component={AboutUS} />
                   <Route path="/terms" exact component={Terms} />
@@ -63,7 +64,7 @@ class App extends React.Component  {
                   <Route path="/donate-us" exact component={Payment} />
                   <Route path="/volunteer" exact component={Volunteer} />
                   <Route path="/cancellation-return" exact component={CreateSchool} />
-                  // pages linking
+                  <Route path="/stories" exact component={Story} />
 
                   <Route path="/">
                  <MobApp />
@@ -84,8 +85,9 @@ class App extends React.Component  {
               <Route path="/school/classes/sections/book/:id/chapters" exact component={Chapters} />
               <Route path="/demo" exact component={VideoDemo} />
               <Route path="/register" exact component={CreateSchool} />
-
-              // pages linking 
+              
+              <Route path="/stories" exact component={Story} />
+              
               <Route path="/contact-us" exact component={ContactUs} />
               <Route path="/about" exact component={AboutUS} />
               <Route path="/terms" exact component={Terms} />
@@ -94,7 +96,6 @@ class App extends React.Component  {
               <Route path="/volunteer" exact component={Volunteer} />
 
               <Route path="/cancellation-return" exact component={CreateSchool} />
-              // pages linking
 
               <Route path="/">
                 <WebApp />
