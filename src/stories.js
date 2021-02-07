@@ -42,9 +42,7 @@ class WebApp extends React.Component  {
     }
   
     async componentDidMount() {
-      this.props.history.push({
-        pathname: '/school',
-      });
+     
 
       let a =  await fetch("https://sketch-story.herokuapp.com/api/v1/stories")
       const data = await a.json();
@@ -69,6 +67,7 @@ class WebApp extends React.Component  {
         }
         if(content){
           this.setState({ is_submit: true, text: content})
+
         }
     }
   
@@ -87,6 +86,9 @@ class WebApp extends React.Component  {
         if(response.data){
   
         }
+        this.props.history.push({
+          pathname: '/school',
+        });
   
     }
   
@@ -108,28 +110,28 @@ class WebApp extends React.Component  {
   
     _renderView = () => {
   
-      if(this.state.value == 'more'){
-        return(
-          <>
-            <CategoryList onSelect={(text) => this._menuSelect(text)} />
-          </>
-        )
-      } else {
-        let content = null
-        if(this.state.is_submit){
-          content =   <Form save={(name, email) => this.onSave(name, email) } name={this.state.name}/>
+        if(this.state.value == 'more'){
+          return(
+            <>
+              <CategoryList onSelect={(text) => this._menuSelect(text)} />
+            </>
+          )
         } else {
-          content =   <Story  onSubmit={(text) => this.onSubmit(text)} type={this.state.value}/>
+            let content = null
+              if(this.state.is_submit){
+                content =   <Form save={(name, email) => this.onSave(name, email) } name={this.state.name}/>
+              } else {
+                content =   <Story  onSubmit={(text) => this.onSubmit(text)} type={this.state.value}/>
+              }
+    
+          return(
+              <>
+                  {this._renderContent(content)}
+                  {this._toastAlert()}
+                  <ListComponent array={this.state.array} />
+              </>
+          )
         }
-  
-        return(
-          <>
-              {this._renderContent(content)}
-              {this._toastAlert()}
-              <ListComponent array={this.state.array} />
-          </>
-        )
-      }
     }
   
     _renderContent = (content) => {
