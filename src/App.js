@@ -9,7 +9,7 @@ import Book from './books/list';
 import Chapters from './chapters/list';
 import VideoDemo from './demo/video';
 import CreateSchool from './school/create';
-import Story from './shared/story';
+import Story from './stories';
 // import MobileStory './mobile/stories/stories';
 
 

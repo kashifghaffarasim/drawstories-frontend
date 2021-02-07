@@ -44,7 +44,7 @@ class Story extends React.Component  {
     } else {
         return(
           <>
-            <DogStroy onSubmit={(text) => this.props.onSubmit(text)}/>
+            <DogStroy onSubmit={(text) => this._submitForReview(text)}/>
           </>
         )
       }
