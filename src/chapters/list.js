@@ -219,17 +219,20 @@ class Chapter extends React.Component  {
                     { this.state.files.map( (file, index) => {
                              let media =  null
                             try {
+                                    media = require('/var/www/drawstories_files/' + file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name)
+
                                     if (process.env.NODE_ENV !== 'production') {
-                                        media =   require('/home/kk/projects/React/websites/drawstories_files/' + file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name)
+                                        // media =   require('/home/kk/projects/React/websites/drawstories_files/' + file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name)
                                         console.log('development')
                                     } else if(process.env.NODE_ENV == 'production'){
                                         console.log('production')
-                                        media = require('/var/www/drawstories_files'+ file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name)
+                                        // media = require('/var/www/drawstories_files'+ file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name)
                                     }
                                
                             } catch(err){
                                 
                             }
+
                             return(
                                     <div className="col-md-12 text-center" key={file.id}>
                                         <div className="audio-box text-center">
