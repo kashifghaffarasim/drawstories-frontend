@@ -92,8 +92,7 @@ class Chapter extends React.Component  {
 
             let school_id = localStorage.getItem('school_id');
             let class_section_id = localStorage.getItem('class_section_id')
-            console.log(school_id)
-            console.log(class_section_id)
+         
             
             let opts = {user: user, school_id: school_id, section_id: class_section_id, answers: this.state.answers}
          
@@ -225,6 +224,7 @@ class Chapter extends React.Component  {
                                         console.log('development')
                                     } else if(process.env.NODE_ENV == 'production'){
                                         console.log('production')
+                                        media = require('/var/www/drawstories_files'+ file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name)
                                     }
                                
                             } catch(err){
