@@ -217,7 +217,8 @@ class Chapter extends React.Component  {
                 <div className="col-md-12 text-center" style={{ paddingLeft: 0, paddingRight: 0 }}>
                     <div className="row text-center"> 
                     { this.state.files.map( (file, index) => {
-                             let media =  null
+                            let media = null
+
                             try {
 
                                     if (process.env.NODE_ENV !== 'production') {
@@ -226,13 +227,14 @@ class Chapter extends React.Component  {
                                     } else if(process.env.NODE_ENV == 'production'){
                                         console.log('production')
                                         media = require('/var/www/drawstories_files/'+ file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name)
-                                        console.log(media)
                                     }
                                
                             } catch(err){
                                 console.log('error')
+                                console.log(err)
+                                console.log('Errors is here')
                             }
-
+                            console.log('all update')
                             console.log(media)
                             return(
                                     <div className="col-md-12 text-center" key={file.id}>
