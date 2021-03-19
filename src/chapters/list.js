@@ -226,7 +226,7 @@ class Chapter extends React.Component  {
                                         console.log('development')
                                     } else if(process.env.NODE_ENV == 'production'){
                                         console.log('production')
-                                        media = require('/var/www/drawstories_files/' + file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name)
+                                        media = require('/drawstories_files/' + file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name)
                                         console.log(media)
                                     }
                                
