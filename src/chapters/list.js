@@ -218,7 +218,9 @@ class Chapter extends React.Component  {
                     <div className="row text-center"> 
                     { this.state.files.map( (file, index) => {
                             let media = null
-                            media = require('/var/www/drawstories_files/' + file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name)
+                            let path = '/var/www/drawstories_files/' + file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name;
+                            console.log(path)
+                            media = require(path)
 
                             console.log('all update')
                             console.log(media)
