@@ -218,7 +218,6 @@ class Chapter extends React.Component  {
                     <div className="row text-center"> 
                     { this.state.files.map( (file, index) => {
                             let media = null
-    
                             try {
                                     if (process.env.NODE_ENV == 'development') {
                                         media =   require('/home/kk/projects/React/websites/drawstories_files/' + file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name)
@@ -233,6 +232,7 @@ class Chapter extends React.Component  {
                             }
                             console.log('all update')
                             console.log(media)
+                            console.log('ssssssssssss')
                             return(
                                     <div className="col-md-12 text-center" key={file.id}>
                                         <div className="audio-box text-center">
