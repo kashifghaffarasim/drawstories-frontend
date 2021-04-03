@@ -222,7 +222,7 @@ class Chapter extends React.Component  {
                                     if (process.env.NODE_ENV == 'development') {
                                         media =   require('/home/kk/projects/React/websites/drawstories_files/' + file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name)
                                     } else if(process.env.NODE_ENV == 'production'){
-                                        media = require('/drawstories_files/' + file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name)
+                                        media = require('http://drawstories.com/drawstories_files/' + file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name)
                                     }
                                
                             } catch(err){
