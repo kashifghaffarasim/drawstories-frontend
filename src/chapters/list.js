@@ -217,19 +217,14 @@ class Chapter extends React.Component  {
                 <div className="col-md-12 text-center" style={{ paddingLeft: 0, paddingRight: 0 }}>
                     <div className="row text-center"> 
                     { this.state.files.map( (file, index) => {
-                            let media = null
-                            try {
-                                    if (process.env.NODE_ENV == 'development') {
-                                        media =   require('/home/kk/projects/React/websites/drawstories_files/' + file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name)
-                                    } else if(process.env.NODE_ENV == 'production'){
-                                        media = require('http://drawstories.com/drawstories_files/' + file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name)
-                                    }
-                               
-                            } catch(err){
-                                console.log('error')
-                                console.log(err)
-                                console.log('Errors is here')
-                            }
+                        let url = 'http://drawstories.com/drawstories_files/' + file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name;
+
+                        console.log('ssssssssss')
+                        console.log(url)
+                        console.log('url')
+
+                        let media = url
+      
                             console.log('all updatedddd')
                             console.log(media)
                             console.log('ssssssssssssdddddddddddddd')
