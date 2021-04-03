@@ -230,9 +230,9 @@ class Chapter extends React.Component  {
                                 console.log(err)
                                 console.log('Errors is here')
                             }
-                            console.log('all update')
+                            console.log('all updatedddd')
                             console.log(media)
-                            console.log('ssssssssssss')
+                            console.log('ssssssssssssdddddddddddddd')
                             return(
                                     <div className="col-md-12 text-center" key={file.id}>
                                         <div className="audio-box text-center">
