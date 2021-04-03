@@ -218,14 +218,8 @@ class Chapter extends React.Component  {
                     <div className="row text-center"> 
                     { this.state.files.map( (file, index) => {
                             let media = null
-                            let path = '/var/www/drawstories_files/' + file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name;
-                            console.log(path)
-                            media = require(path)
-
-<<<<<<< HEAD
-=======
+    
                             try {
-
                                     if (process.env.NODE_ENV == 'development') {
                                         media =   require('/home/kk/projects/React/websites/drawstories_files/' + file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name)
                                     } else if(process.env.NODE_ENV == 'production'){
@@ -237,7 +231,6 @@ class Chapter extends React.Component  {
                                 console.log(err)
                                 console.log('Errors is here')
                             }
->>>>>>> 2f6b2b3edfe0b5dd2ed91598c9cc3245f072bb22
                             console.log('all update')
                             console.log(media)
                             return(
