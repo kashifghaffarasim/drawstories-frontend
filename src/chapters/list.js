@@ -217,17 +217,8 @@ class Chapter extends React.Component  {
                 <div className="col-md-12 text-center" style={{ paddingLeft: 0, paddingRight: 0 }}>
                     <div className="row text-center"> 
                     { this.state.files.map( (file, index) => {
-                        let url = 'http://drawstories.com/drawstories_files/' + file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name;
-
-                        console.log('ssssssssss')
-                        console.log(url)
-                        console.log('url')
-
-                        let media = url
-      
-                            console.log('all updatedddd')
-                            console.log(media)
-                            console.log('ssssssssssssdddddddddddddd')
+                        let media = 'https://gitanjali.org/drawstories_files/' + file.board_name + "/" + file.clsname + "/" + file.chp_folder + "/" + file.language + "/" +  file.voice_position + "/" + file.file_name;
+                        
                             return(
                                     <div className="col-md-12 text-center" key={file.id}>
                                         <div className="audio-box text-center">
