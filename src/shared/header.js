@@ -23,8 +23,6 @@ class Header extends React.Component  {
             <div className="row">
                 <div className="col-12 col-md-9"  style={{ padding: 5}}>
                   <p className="top-text" style={{ marginBottom: 0}}>
-                    <a href="http://sachdevagroup.co.in/" className="top-btn-text" target="_blank"> SCOPE </a>  
-                       and 
                     <a href="http://vrquin.in" className="top-btn-text" target="_blank" > VRQUIN LLP </a> 
                      presents Gitanjali.org. India's first non-profit e-learning software. 
                   </p>

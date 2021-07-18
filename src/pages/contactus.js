@@ -70,20 +70,6 @@ class ContactUs extends React.Component  {
                                                     </p>
                                                     
                                                 </div>
-
-                                                <div>
-                                                    <h6> Office 2: </h6>
-                                                    <p style={{ marginBottom: 4}}>
-                                                        SCOPE <br>
-                                                        </br>
-                                                        (Part of Sachdeva Group of Institutions)<br>
-                                                        </br>
-                                                        B 85 defence colony, New Delhi 110024, India.
-                                                    </p>
-                                                    <p>
-                                                        Ph: 01125848070
-                                                    </p>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>

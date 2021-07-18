@@ -36,17 +36,17 @@ class AboutUS extends React.Component  {
                                     <div className="row">
                                         <div className="col-md-12">
                                             <p>
-                                                Gitanjali.org is a non-profit initiative of SCOPE (part of Sachdeva Group of Institutions, a well known educational foundation) and powered by advanced tech startups
+                                                Gitanjali.org is a non-profit initiative of powered by advanced tech startups
                                             </p>
                                             <br />
                                             <p>
                                                 <h4> Our story - </h4>
-                                                Gitanjali.org is formed on a shared vision of SCOPE (part of Sachdeva Group of Institutions, a well known educational foundation) and VRQUIN LLP (Leaders of Virtual Reality technology in India) to improve the access to good quality education for all students in India and to use technology to create such solutions.
+                                                Gitanjali.org is formed on a shared vision of VRQUIN LLP (Leaders of Virtual Reality technology in India) to improve the access to good quality education for all students in India and to use technology to create such solutions.
                                             </p>
                                             <br />
                                             <p>
                                                 <h4> The journey -  </h4>
-                                                SCOPE (part of Sachdeva Group of Institutions, a well known educational foundation) has the wisdom of years of teaching and training in India. Supported by advanced tech startups, gitanjali.org aims to create an e-learning software, which can be used remotely by all students in India. Also in the future gitanjali.org plans to release the code under an Open Source license so that it can benefit all students and educational institutions.
+                                                E-Learning has the wisdom of years of teaching and training in India. Supported by advanced tech startups, gitanjali.org aims to create an e-learning software, which can be used remotely by all students in India. Also in the future gitanjali.org plans to release the code under an Open Source license so that it can benefit all students and educational institutions.
                                             </p>
                                             <br />
 

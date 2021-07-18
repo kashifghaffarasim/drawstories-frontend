@@ -31,15 +31,7 @@ class Header extends React.Component  {
                             <p class="mb-txt"> VRQUIN LLP, #218,3rd Floor,27th Main, 21st Cross Rd, Opposite Andhra Bank, Sector 2, HSR Layout, Bengaluru, Karnataka 560102, India.</p>
                         </div>
                       </div>
-                      <div className="row">
-                        <div className=" col-md-12 text-left addre-office" >
-                            <h6> Office 2: </h6>
-
-                            <p class="mb-txt mt-s"> SCOPE (Part of Sachdeva Group of Institutions)<br /> 
-                               B 85 defence colony, New Delhi 110024, India. 
-                            </p>
-                        </div>
-                      </div>
+                     
 
                       <div className="row">
                         <div className="col-12 col-md-12 text-left" >
