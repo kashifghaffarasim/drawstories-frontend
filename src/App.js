@@ -61,7 +61,6 @@ class App extends React.Component  {
                   <Route path="/about" exact component={AboutUS} />
                   <Route path="/terms" exact component={Terms} />
                   <Route path="/privacy" exact component={CreateSchool} />
-                  <Route path="/donate-us" exact component={Payment} />
                   <Route path="/volunteer" exact component={Volunteer} />
                   <Route path="/cancellation-return" exact component={CreateSchool} />
                   <Route path="/stories" exact component={Story} />
@@ -92,7 +91,6 @@ class App extends React.Component  {
               <Route path="/about" exact component={AboutUS} />
               <Route path="/terms" exact component={Terms} />
               <Route path="/privacy" exact component={CreateSchool} />
-              <Route path="/donate-us" exact component={Payment} />
               <Route path="/volunteer" exact component={Volunteer} />
 
               <Route path="/cancellation-return" exact component={CreateSchool} />

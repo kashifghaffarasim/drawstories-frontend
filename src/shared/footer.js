@@ -60,13 +60,6 @@ class Header extends React.Component  {
                           <a href="terms" style={{ color: '#fff'}}> TERMS & CONDITION </a>
                         </div>
                       </div>
-
-                      <div className="row imp-link ">
-                          <div className="col-md-12">
-                            <a href="donate-us" style={{ color: '#fff'}}> DONATE </a>
-                          </div>
-                      </div>
-                     
                       <div className="row imp-link ">
                         <div className="col-md-12">
                          <a  href="terms" style={{ color: '#fff'}}>  Cancellation and Return Policy </a>
