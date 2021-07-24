@@ -33,9 +33,7 @@ class Header extends React.Component  {
                   </a>
                 </div>
                 <div className="col-4 col-md-1 text-center" style={{ padding: 5}}>
-                  <a href="/donate-us" className="top-btn"> 
-                      Donate 
-                  </a>
+                 
                 </div>
                 <div className="col-4 col-md-1 text-center" style={{ padding: 5}}>
                   <AiFillFacebook> </AiFillFacebook> 
